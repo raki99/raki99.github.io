@@ -1,205 +1,216 @@
 <html>
+
 <head>
-	<meta name="generator" content="Hugo 0.58.3" />
-    <title>My Site</title>
-    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="generator" content="Hugo 0.58.3" />
+    <meta charset="UTF-8">
+    <title>rakinavi</title>
+    <link rel="shortcut icon" href="th.jpg">
     <link rel="stylesheet" href="css/slate.css">
+    <style>
+        .demo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            min-width: 1000px;
+            z-index: -10;
+            zoom: 1;
+            background-color: rgba(255, 255, 255, 0.5);
+            /* background-color: #fff; */
+            background: url(1.jpg);
+            background-repeat: repeat;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-position: center 0;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="nav-panel">
-    <nav>
-        <ul>
-            <li class="tag"><a data-tooltip="all" href="#"><i class="icon fa fa-th" aria-hidden="true"></i></a></li>
-            <li class="tag"><a data-tooltip="favorites" href="#favorite"><i class="icon fa fa-star" aria-hidden="true"></i></a></li>
-            <li class="tag"><a data-tooltip="search" href="#search"><i class="icon fa fa-search" aria-hidden="true"></i></a></li>
-            <li class="tag"><a data-tooltip="shopping" href="#shopping"><i class="icon fa fa-shopping-basket" aria-hidden="true"></i></a></li>
-            <li class="tag"><a data-tooltip="music" href="#music"><i class="icon fa fa-headphones" aria-hidden="true"></i></a></li>
-            <li class="tag"><a data-tooltip="video" href="#video"><i class="icon fa fa-video-camera" aria-hidden="true"></i></a></li>
+    <div class="nav-panel">
+        <nav>
+            <ul>
+                <li class="tag"><a data-tooltip="all" href="#"><i class="icon fa fa-th" aria-hidden="true"></i></a></li>
+                <li class="tag"><a data-tooltip="favorites" href="#favorite"><i class="icon fa fa-star" aria-hidden="true"></i></a></li>
+                <li class="tag"><a data-tooltip="search" href="#search"><i class="icon fa fa-search" aria-hidden="true"></i></a></li>
+                <li class="tag"><a data-tooltip="shopping" href="#shopping"><i class="icon fa fa-shopping-basket" aria-hidden="true"></i></a></li>
+                <li class="tag"><a data-tooltip="music" href="#music"><i class="icon fa fa-headphones" aria-hidden="true"></i></a></li>
+                <li class="tag"><a data-tooltip="video" href="#video"><i class="icon fa fa-video-camera" aria-hidden="true"></i></a></li>
 
-        </ul>
-    </nav>
-</div>
+            </ul>
+        </nav>
+    </div>
 
 
-<div class="container"><div class="tile-container">
-<a class="tile tile-link" href="https://bing.com" data-groups='favorite,search' target="_blank">
-    <div class="tile-box"
-        data-title='bing'
-        data-url='https://bing.com'
-        data-bg-color='#ffb900'data-txt-color='#ffffff'data-img='logos/bing.svg'style='background-color:#ffb900; color:#ffffff'>
-        <img class="logo" src="logos/bing.svg"></img></div>
-    <div class="tile-title">bing</div>
-</a>
+    <div class="container">
+        <div class="tile-container">
+            <a class="tile tile-link" href="http://www.rakinavi.xyz/" data-groups='favorite,search' target="_blank">
+                <div class="tile-box" data-title='rakinavi' data-url='http://www.rakinavi.xyz/' data-bg-color='#ffb900' data-txt-color='#ffffff' data-img='logos/rakinavi.svg' style='background-color:#ffb900; color:#ffffff'>
+                    <img class="logo" src="logos/rakinavi.svg"></img>
+                </div>
+                <div class="tile-title">rakinavi</div>
+            </a>
 
-<a class="tile tile-link" href="https://google.com" data-groups='search' target="_blank">
-    <div class="tile-box"
-        data-title='google'
-        data-url='https://google.com'
-        data-img='logos/google.svg'>
-        <img class="logo" src="logos/google.svg"></img></div>
-    <div class="tile-title">google</div>
-</a>
+            <a class="tile tile-link" href="https://bing.com" data-groups='favorite,search' target="_blank">
+                <div class="tile-box" data-title='bing' data-url='https://bing.com' data-bg-color='#5f99cf' data-txt-color='#ffffff' data-img='logos/bing.svg' style='background-color:#ffb900; color:#ffffff'>
+                    <img class="logo" src="logos/bing.svg"></img>
+                </div>
+                <div class="tile-title">bing</div>
+            </a>
 
-<a class="tile tile-link" href="https://wwww.baidu.com" data-groups='search' target="_blank">
-    <div class="tile-box"
-        data-title='baidu'
-        data-url='https://wwww.baidu.com'
-        data-bg-color='#5f99cf'data-txt-color='#ffffff'data-img='logos/baidu.png'style='background-color:#5f99cf; color:#ffffff'>
-        <img class="logo" src="logos/baidu.png"></img></div>
-    <div class="tile-title">baidu</div>
-</a>
+            <a class="tile tile-link" href="https://google.com" data-groups='search' target="_blank">
+                <div class="tile-box" data-title='google' data-url='https://google.com' data-img='logos/google.svg'>
+                    <img class="logo" src="logos/google.svg"></img>
+                </div>
+                <div class="tile-title">google</div>
+            </a>
 
-<a class="tile tile-link" href="http://tv.cctv.com/live/cctv5/?spm=C28340.PTEIZZ4GiRby.S13356.69" data-groups='video' target="_blank">
-    <div class="tile-box"
-        data-title='CCTV5'
-        data-url='http://tv.cctv.com/live/cctv5/?spm=C28340.PTEIZZ4GiRby.S13356.69'
-        data-bg-color='#ffffff'data-txt-color='#ff5722'data-img='logos/CCTV5.png'style='background-color:#ffffff; color:#ff5722'>
-        <img class="logo" src="logos/CCTV5.png"></img></div>
-    <div class="tile-title">CCTV5</div>
-</a>
+            <a class="tile tile-link" href="https://wwww.baidu.com" data-groups='search' target="_blank">
+                <div class="tile-box" data-title='baidu' data-url='https://wwww.baidu.com' data-bg-color='#ffb900' data-txt-color='#ffffff' data-img='logos/baidu.png' style='background-color:#5f99cf; color:#ffffff'>
+                    <img class="logo" src="logos/baidu.png"></img>
+                </div>
+                <div class="tile-title">baidu</div>
+            </a>
 
-<a class="tile tile-link" href="https://www.bilibili.com" data-groups='favorite,vedio' target="_blank">
-    <div class="tile-box"
-        data-title='bilibili'
-        data-url='https://www.bilibili.com'
-        data-bg-color='#ffffff'data-txt-color='#ff9900'data-img='logos/bilibili.svg'style='background-color:#ffffff; color:#ff9900'>
-        <img class="logo" src="logos/bilibili.svg"></img></div>
-    <div class="tile-title">bilibili</div>
-</a>
+            <a class="tile tile-link" href="http://tv.cctv.com/live/cctv5/?spm=C28340.PTEIZZ4GiRby.S13356.69" data-groups='video' target="_blank">
+                <div class="tile-box" data-title='CCTV5' data-url='http://tv.cctv.com/live/cctv5/?spm=C28340.PTEIZZ4GiRby.S13356.69' data-bg-color='#ffffff' data-txt-color='#ff5722' data-img='logos/CCTV5.png' style='background-color:#ffffff; color:#ff5722'>
+                    <img class="logo" src="logos/CCTV5.png"></img>
+                </div>
+                <div class="tile-title">CCTV5</div>
+            </a>
 
-<a class="tile tile-link" href="https://youtube.com" data-groups='video' target="_blank">
-    <div class="tile-box"
-        data-title='youtube'
-        data-url='https://youtube.com'
-        data-bg-color='#ffffff'data-txt-color='#cd201f'data-img='logos/youtube.svg'style='background-color:#ffffff; color:#cd201f'>
-        <img class="logo" src="logos/youtube.svg"></img></div>
-    <div class="tile-title">youtube</div>
-</a>
+            <a class="tile tile-link" href="https://www.bilibili.com" data-groups='favorite,vedio' target="_blank">
+                <div class="tile-box" data-title='bilibili' data-url='https://www.bilibili.com' data-bg-color='#ffffff' data-txt-color='#ff9900' data-img='logos/bilibili.svg' style='background-color:#ffffff; color:#ff9900'>
+                    <img class="logo" src="logos/bilibili.svg"></img>
+                </div>
+                <div class="tile-title">bilibili</div>
+            </a>
 
-<a class="tile tile-link" href="http://www.yhdm.tv/" data-groups='video' target="_blank">
-    <div class="tile-box"
-        data-title='樱花动漫'
-        data-url='http://www.yhdm.tv/'
-        data-bg-color='#ffffff'data-txt-color='#000000'data-img='logos/sakura.svg'style='background-color:#ffffff; color:#000000'>
-        <img class="logo" src="logos/sakura.svg"></img></div>
-    <div class="tile-title">樱花动漫</div>
-</a>
+            <a class="tile tile-link" href="https://youtube.com" data-groups='video' target="_blank">
+                <div class="tile-box" data-title='youtube' data-url='https://youtube.com' data-bg-color='#ffffff' data-txt-color='#cd201f' data-img='logos/youtube.svg' style='background-color:#ffffff; color:#cd201f'>
+                    <img class="logo" src="logos/youtube.svg"></img>
+                </div>
+                <div class="tile-title">youtube</div>
+            </a>
 
-<a class="tile tile-link" href="https://www.acfun.cn/" data-groups='video' target="_blank">
-    <div class="tile-box"
-        data-title='AcFun'
-        data-url='https://www.acfun.cn/'
-        data-bg-color='#ffffff'data-txt-color='#000000'data-img='logos/acfun.svg'style='background-color:#ffffff; color:#000000'>
-        <img class="logo" src="logos/acfun.svg"></img></div>
-    <div class="tile-title">AcFun</div>
-</a>
+            <a class="tile tile-link" href="http://www.yhdm.tv/" data-groups='video' target="_blank">
+                <div class="tile-box" data-title='樱花动漫' data-url='http://www.yhdm.tv/' data-bg-color='#ffffff' data-txt-color='#000000' data-img='logos/sakura.svg' style='background-color:#ffffff; color:#000000'>
+                    <img class="logo" src="logos/sakura.svg"></img>
+                </div>
+                <div class="tile-title">樱花动漫</div>
+            </a>
 
-<a class="tile tile-link" href="https://share.dmhy.org/" data-groups='video' target="_blank">
-    <div class="tile-box"
-        data-title='花园动漫'
-        data-url='https://share.dmhy.org/'
-        data-bg-color='#1da1f2'data-txt-color='#f5f8fa'style='background-color:#1da1f2; color:#f5f8fa'>
-        花园动漫</div>
-    <div class="tile-title">花园动漫</div>
-</a>
+            <a class="tile tile-link" href="https://www.acfun.cn/" data-groups='video' target="_blank">
+                <div class="tile-box" data-title='AcFun' data-url='https://www.acfun.cn/' data-bg-color='#ffffff' data-txt-color='#000000' data-img='logos/acfun.svg' style='background-color:#ffffff; color:#000000'>
+                    <img class="logo" src="logos/acfun.svg"></img>
+                </div>
+                <div class="tile-title">AcFun</div>
+            </a>
 
-<a class="tile tile-link" href="http://www.hacg.site/" data-groups='video' target="_blank">
-    <div class="tile-box"
-        data-title='琉璃神社'
-        data-url='http://www.hacg.site/'
-        data-bg-color='#f1f1f1'data-txt-color='#6441a5'style='background-color:#f1f1f1; color:#6441a5'>
-        琉璃神社</div>
-    <div class="tile-title">琉璃神社</div>
-</a>
+            <a class="tile tile-link" href="https://share.dmhy.org/" data-groups='video' target="_blank">
+                <div class="tile-box" data-title='花园动漫' data-url='https://share.dmhy.org/' data-bg-color='#1da1f2' data-txt-color='#f5f8fa' style='background-color:#1da1f2; color:#f5f8fa'>
+                    花园动漫</div>
+                <div class="tile-title">花园动漫</div>
+            </a>
 
-<a class="tile tile-link" href="https://www.manhuadui.com/" data-groups='' target="_blank">
-    <div class="tile-box"
-        data-title='漫画堆'
-        data-url='https://www.manhuadui.com/'
-        data-bg-color='#ffffff'data-txt-color='#cd201f'style='background-color:#ffffff; color:#cd201f'>
-        漫画堆</div>
-    <div class="tile-title">漫画堆</div>
-</a>
+            <a class="tile tile-link" href="http://www.hacg.site/" data-groups='video' target="_blank">
+                <div class="tile-box" data-title='琉璃神社' data-url='http://www.hacg.site/' data-bg-color='#f1f1f1' data-txt-color='#6441a5' style='background-color:#f1f1f1; color:#6441a5'>
+                    琉璃神社</div>
+                <div class="tile-title">琉璃神社</div>
+            </a>
 
-<a class="tile tile-link" href="https://www.jd.com/" data-groups='shopping' target="_blank">
-    <div class="tile-box"
-        data-title='京东'
-        data-url='https://www.jd.com/'
-        data-bg-color='#221f1f'data-txt-color='#e50914'data-img='logos/jd.png'style='background-color:#221f1f; color:#e50914'>
-        <img class="logo" src="logos/jd.png"></img></div>
-    <div class="tile-title">京东</div>
-</a>
+            <a class="tile tile-link" href="https://www.manhuadui.com/" data-groups='' target="_blank">
+                <div class="tile-box" data-title='漫画堆' data-url='https://www.manhuadui.com/' data-bg-color='#ffffff' data-txt-color='#cd201f' style='background-color:#ffffff; color:#cd201f'>
+                    漫画堆</div>
+                <div class="tile-title">漫画堆</div>
+            </a>
 
-<a class="tile tile-link" href="https://www.taobao.com/" data-groups='shopping' target="_blank">
-    <div class="tile-box"
-        data-title='taobao'
-        data-url='https://www.taobao.com/'
-        data-bg-color='#ffffff'data-txt-color='#ff9900'data-img='logos/taobao.svg'style='background-color:#ffffff; color:#ff9900'>
-        <img class="logo" src="logos/taobao.svg"></img></div>
-    <div class="tile-title">taobao</div>
-</a>
+            <a class="tile tile-link" href="https://www.jd.com/" data-groups='shopping' target="_blank">
+                <div class="tile-box" data-title='京东' data-url='https://www.jd.com/' data-bg-color='#221f1f' data-txt-color='#e50914' data-img='logos/jd.png' style='background-color:#221f1f; color:#e50914'>
+                    <img class="logo" src="logos/jd.png"></img>
+                </div>
+                <div class="tile-title">京东</div>
+            </a>
 
-<a class="tile tile-link" href="https://github.com/" data-groups='' target="_blank">
-    <div class="tile-box"
-        data-title='gihub'
-        data-url='https://github.com/'
-        data-bg-color='#ffffff'data-txt-color='#85bf25'data-img='logos/github.svg'style='background-color:#ffffff; color:#85bf25'>
-        <img class="logo" src="logos/github.svg"></img></div>
-    <div class="tile-title">gihub</div>
-</a>
+            <a class="tile tile-link" href="https://www.taobao.com/" data-groups='shopping' target="_blank">
+                <div class="tile-box" data-title='taobao' data-url='https://www.taobao.com/' data-bg-color='#ffffff' data-txt-color='#ff9900' data-img='logos/taobao.svg' style='background-color:#ffffff; color:#ff9900'>
+                    <img class="logo" src="logos/taobao.svg"></img>
+                </div>
+                <div class="tile-title">taobao</div>
+            </a>
 
-<a class="tile tile-link" href="https://weibo.com/login.php?url=https%3A%2F%2Fweibo.com%2Fu%2F2690093302%2Fhome%3Fdisplay%3D0%26retcode%3D6102" data-groups='' target="_blank">
-    <div class="tile-box"
-        data-title='微博'
-        data-url='https://weibo.com/login.php?url=https%3A%2F%2Fweibo.com%2Fu%2F2690093302%2Fhome%3Fdisplay%3D0%26retcode%3D6102'
-        data-bg-color='#ffffff'data-txt-color='#85bf25'data-img='logos/weibo.svg'style='background-color:#ffffff; color:#85bf25'>
-        <img class="logo" src="logos/weibo.svg"></img></div>
-    <div class="tile-title">微博</div>
-</a>
+            <a class="tile tile-link" href="https://github.com/" data-groups='' target="_blank">
+                <div class="tile-box" data-title='gihub' data-url='https://github.com/' data-bg-color='#ffffff' data-txt-color='#85bf25' data-img='logos/github.svg' style='background-color:#ffffff; color:#85bf25'>
+                    <img class="logo" src="logos/github.svg"></img>
+                </div>
+                <div class="tile-title">gihub</div>
+            </a>
 
-<a class="tile tile-link" href="https://zhutix.com/pc/" data-groups='' target="_blank">
-    <div class="tile-box"
-        data-title='致美化'
-        data-url='https://zhutix.com/pc/'
-        data-bg-color='#ffffff'data-txt-color='#85bf25'style='background-color:#ffffff; color:#85bf25'>
-        致美化</div>
-    <div class="tile-title">致美化</div>
-</a>
+            <a class="tile tile-link" href="https://weibo.com/login.php?url=https%3A%2F%2Fweibo.com%2Fu%2F2690093302%2Fhome%3Fdisplay%3D0%26retcode%3D6102" data-groups='' target="_blank">
+                <div class="tile-box" data-title='微博' data-url='https://weibo.com/login.php?url=https%3A%2F%2Fweibo.com%2Fu%2F2690093302%2Fhome%3Fdisplay%3D0%26retcode%3D6102' data-bg-color='#ffffff' data-txt-color='#85bf25' data-img='logos/weibo.svg' style='background-color:#ffffff; color:#85bf25'>
+                    <img class="logo" src="logos/weibo.svg"></img>
+                </div>
+                <div class="tile-title">微博</div>
+            </a>
 
-<a class="tile tile-link" href="https://www.ali213.net/" data-groups='' target="_blank">
-    <div class="tile-box"
-        data-title='游侠网'
-        data-url='https://www.ali213.net/'
-        data-bg-color='#ffffff'data-txt-color='#85bf25'style='background-color:#ffffff; color:#85bf25'>
-        游侠网</div>
-    <div class="tile-title">游侠网</div>
-</a>
+            <a class="tile tile-link" href="https://zhutix.com/pc/" data-groups='' target="_blank">
+                <div class="tile-box" data-title='致美化' data-url='https://zhutix.com/pc/' data-bg-color='#ffffff' data-txt-color='#85bf25' style='background-color:#ffffff; color:#85bf25'>
+                    致美化</div>
+                <div class="tile-title">致美化</div>
+            </a>
 
-<a class="tile tile-link" href="https://raki.netlify.com/" data-groups='' target="_blank">
-    <div class="tile-box"
-        data-title='netlify'
-        data-url='https://raki.netlify.com/'
-        data-bg-color='#191414'data-txt-color='#1db954'style='background-color:#191414; color:#1db954'>
-        netlify</div>
-    <div class="tile-title">netlify</div>
-</a>
+            <a class="tile tile-link" href="https://www.ali213.net/" data-groups='' target="_blank">
+                <div class="tile-box" data-title='游侠网' data-url='https://www.ali213.net/' data-bg-color='#ffffff' data-txt-color='#85bf25' style='background-color:#ffffff; color:#85bf25'>
+                    游侠网</div>
+                <div class="tile-title">游侠网</div>
+            </a>
 
-<a class="tile tile-link" href="https://app.netlify.com/teams/qq596993942/sites" data-groups='' target="_blank">
-    <div class="tile-box"
-        data-title='netlify1'
-        data-url='https://app.netlify.com/teams/qq596993942/sites'
-        data-bg-color='#191414'data-txt-color='#1db954'style='background-color:#191414; color:#1db954'>
-        netlify1</div>
-    <div class="tile-title">netlify1</div>
-</a>
+            <a class="tile tile-link" href="https://raki.netlify.com/" data-groups='' target="_blank">
+                <div class="tile-box" data-title='netlify' data-url='https://raki.netlify.com/' data-bg-color='#191414' data-txt-color='#1db954' style='background-color:#191414; color:#1db954'>
+                    netlify</div>
+                <div class="tile-title">netlify</div>
+            </a>
 
-</div>
+            <a class="tile tile-link" href="https://app.netlify.com/teams/qq596993942/sites" data-groups='' target="_blank">
+                <div class="tile-box" data-title='netlify1' data-url='https://app.netlify.com/teams/qq596993942/sites' data-bg-color='#191414' data-txt-color='#1db954' style='background-color:#191414; color:#1db954'>
+                    netlify1</div>
+                <div class="tile-title">netlify1</div>
+            </a>
 
-</div>
+            <a class="tile tile-link" href="https://www.easyicon.net/" data-groups='' target="_blank">
+                <div class="tile-box" data-title='SVG图标' data-url='https://www.easyicon.net/' data-bg-color='#5f99cf' data-txt-color='#ffffff' data-img='logos/easyicon.net.png' style='background-color:#ffb900; color:#ffffff'>
+                    <img class="logo" src="logos/easyicon.net.png"></img>
+                </div>
+                <div class="tile-title">SVG图标</div>
+            </a>
+
+            <a class="tile tile-link" href="https://cloud.tencent.com/login?s_url=https%3A%2F%2Fconsole.cloud.tencent.com%2F" data-groups='favorite' target="_blank">
+                <div class="tile-box" data-title='腾讯云总览' data-url='https://cloud.tencent.com/login?s_url=https%3A%2F%2Fconsole.cloud.tencent.com%2F' data-bg-color='#ffb900' data-txt-color='#ffffff' data-img='logos/data.png' style='background-color:#ffb900; color:#ffffff'>
+                    <img class="logo" src="logos/data.png"></img>
+                </div>
+                <div class="tile-title">腾讯云总览</div>
+            </a>
+
+            <a class="tile tile-link" href="https://www.jsr9.com/" data-groups='' target="_blank">
+                <div class="tile-box" data-title='电影下载' data-url='https://www.jsr9.com/' data-bg-color='#5f99cf' data-txt-color='#ffffff' data-img='logos/film.svg' style='background-color:#ffb900; color:#ffffff'>
+                    <img class="logo" src="logos/film.svg"></img>
+                </div>
+                <div class="tile-title">电影下载</div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="demo">
+        <img id="yinghua" src="1.jpg" alt="" style="z-index: -1;">
+    </div>
 
 </body>
 <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 <script src="js/slate.js"></script>
+
 </html>
